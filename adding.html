@@ -8,9 +8,11 @@
   <body>
     <script>
       // Ask for two numbers, then write their sum
-      var firstNumber = prompt("Please enter the first number");
-      var secondNumber = prompt("Please enter the second number");
+      var firstNumber = Number(prompt("Please enter the first number"));
+      var secondNumber = Number(prompt("Please enter the second number"));
+      // The + operator adds firstNumber and secondNumber.
       document.write(firstNumber + secondNumber);
+      // Number() converts the string to a number.
     </script>
   </body>
 </html>
